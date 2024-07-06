@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+
+}
+
+
+#hero{
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("assets/hero-bg.png") ;
+    height: 615px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+
+    
+    
+
+
+}
+
+.hero-contant{
+    width: 684px;
+    margin: 0 auto;
+    
+}
+.sub-title{
+    color: aliceblue;
+    
+    font-family: "Work Sans", sans-serif;
+    font-weight: weight;
+    opacity: 0.8;
+    font-size: 15px;
+
+}
+
+h1{
+    color: aliceblue;
+    font-family: "Work Sans", sans-serif;
+    margin-top: 9px;
+    opacity: 200%;
+    font-weight: weight;
+    margin-bottom: 12px;
+    font-size: 30px;
+
+
+}
+.main-contant{
+    color: aliceblue;
+    opacity: 50%;
+    font-family: "Work Sans", sans-serif;
+    font-weight: weight;
+    margin-bottom: 14px;
+}
+
+
+button{
+    background: linear-gradient(45deg, rgb(14, 123, 14),rgba(111, 226, 111, 0.798));
+    padding: 9px 15px;
+    color: aliceblue;
+    font-family: "work Sans", sans-serif;
+    text-align: center;
+    font-weight: weight;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+}
+
+button:hover{
+    background: linear-gradient(45deg, lightgreen,red);
+    
+    transform: scale(1.1) translateZ(7px);
+    
+}
+
+body{
+    background: linear-gradient(45deg, blueviolet,lightgreen);
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.gried{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 19px;
+}
+
+.card{
+    background-color: #eee;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 6px 5px rgba(86, 58, 58, 0.659);
+
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+}
+.card h3{
+    font-family: "work Sans", sans-serif;
+    margin-top: 10px;
+    margin-left: 70px;
+
+}
+.card p{
+    
+    font-family: "work Sans", sans-serif;
+    margin-top: 10px;
+    
+}
+
+.card .touch{
+    margin-top: 10px;
+    margin: 0 auto;
+}
+.info1{
+    text-align: center;
+    margin-top: 25px;
+
+}
+.info1, p{
+    color: #eee;
+    font-family: "work Sans", sans-serif;
+}
+.info1 h1{
+    color: black;
+    font-weight: weight;
+    opacity: 200%;
+}
+.parent{
+    margin-bottom: 20px ;
+}
